@@ -34,11 +34,15 @@ public class Mhmap {
         ALLMAP.put(mhmapJY.getName() , mhmapJY);
     }
 
-    public void initMApCa(){
+    /**
+     *
+     * 创建长安地图
+     */
+    public void createCAMap(){
         Mhmap mhmapCA = new Mhmap("CA", true , true);
-        ALLMAP.put(mhmapCA.getName() , mhmapCA);
         NPC npc = new NPC("长安传送人", 100 ,100);
         npc.setNpcName("");
+        ALLMAP.put(mhmapCA.getName() , mhmapCA);
     }
 
 }
