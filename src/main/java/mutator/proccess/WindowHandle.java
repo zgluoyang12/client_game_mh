@@ -14,6 +14,7 @@ import java.awt.event.KeyEvent;
  * windows 窗口操作类
  */
 public class WindowHandle {
+    
 
     /**
      * 获取窗口句柄
